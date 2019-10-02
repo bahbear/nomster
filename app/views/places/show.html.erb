@@ -3,7 +3,6 @@
   <i><%= @place.address %></i>
   <br/><br/>
   <p><%= @place.description %></p>
-</div>
 
    <% if @place.latitude.present? && @place.longitude.present? %>
 
@@ -43,7 +42,6 @@
 </div>
 
 <%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
-
   <%= f.input :message %>
   <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
   <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
@@ -71,7 +69,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
+          <%= f.submit "Submit Comment", class: 'btn btn-primary' %>
         </div>
       <% end %>
     </div>
@@ -101,3 +99,4 @@
     </div>
   <% end %>
 </div>
+
