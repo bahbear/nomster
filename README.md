@@ -1,24 +1,23 @@
-# README
+### Welcome
+A basic app clone of yelp! where someone can create a profile and add reviews off specific locations
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Home
+The Home screen where all reviews will show up
+![image](https://user-images.githubusercontent.com/54120060/83338171-98744080-a28f-11ea-8068-a517b81e8d9c.png)
 
-Things you may want to cover:
+## Sign In/Sign Up!
+Log in or Sign up so you can create a profile and post personal reviews!
+![image](https://user-images.githubusercontent.com/54120060/83338182-b6da3c00-a28f-11ea-9aa3-22e30423c0d0.png)
 
-* Ruby version
+## Post Reviews
+Click New Place at the top of the screen to be able to add whatever you want
+![image](https://user-images.githubusercontent.com/54120060/83338210-eb4df800-a28f-11ea-87ad-dcdd673399ec.png)
 
-* System dependencies
+#### Enjoy!
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Tools & Resources
+- [Ruby On Rails](https://rubyonrails.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [bootstrap](https://getbootstrap.com/)
+- [Devise](https://github.com/heartcombo/devise)
+- [Carrierwave](https://github.com/carrierwaveuploader/carrierwave/)
